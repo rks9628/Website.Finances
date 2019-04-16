@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Isopoh.Cryptography.Argon2" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Website.Extensions\Website.Extensions.csproj" />
+    <ProjectReference Include="..\Website.Finances.Domain\Website.Finances.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
